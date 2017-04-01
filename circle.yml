@@ -1,3 +1,5 @@
+geleral:
+ build_dir: src/test
 test:
  post:
    - mkdir -p $CIRCLE_TEST_REPORTS/junit/
